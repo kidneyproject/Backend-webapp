@@ -1,0 +1,54 @@
+/* Profile.css */
+.profile {
+    padding: 5px 20px;
+    background-color: rgb(245, 245, 245); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2.5rem;
+}
+
+.info-container {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #a8c0ff; 
+    border-radius: 5px;
+    background-color: #ffffff; 
+}
+
+.info-label {
+    font-weight: bold; 
+    margin-right: 10px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a8c0ff; /* Set the border color to the main color */
+    border-radius: 5px;
+    font-size: 16px;
+    color: black; /* Set the text color to the main color */
+}
+
+.date-input-field {
+    width: 93%; /* You can adjust the width as needed */
+    padding: 10px;
+    border: 1px solid #a8c0ff; /* Set the border color to the main color */
+    border-radius: 5px;
+    font-size: 16px;
+    color: black; /* Set the text color to the main color */
+}
+
+.save-button,
+.edit-button {
+    background-color: #839ad3; /* Set the button background color to the main color */
+    color: white; /* Set the button text color to white */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.save-button {
+    background-color: #40c793;
+}

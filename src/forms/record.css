@@ -1,0 +1,249 @@
+/* Record Form */
+@media (max-width: 717px) {
+  .record-container {
+    background-color: #f7f7f7;
+    padding: 5px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin-top: 2.5rem;
+  }
+}
+
+@media (min-width: 717px) and (max-width: 1024px) {
+  .record-container {
+    background-color: #f7f7f7;
+    padding: 5px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin-top: 2.5rem;
+    left: 10%;
+    position: relative;
+  }
+}
+
+@media (min-width: 1025px) {
+  .record-container {
+    background-color: #f7f7f7;
+    padding: 5px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin-top: 2.5rem;
+    left: 35%;
+    position: relative;
+  }
+}
+
+.medical-heading {
+  color: #839ad3;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.red-message {
+  margin-bottom: 10px;
+}
+
+.record-button {
+  background-color: #839ad3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-right: 3%;
+}
+
+.record-button:hover {
+  background-color: #7085b9;
+}
+
+.cancel-button {
+  background-color: #e08585;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  background-color: #c4c4c4;
+}
+
+/* Weight Record */
+.weight-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.weight-list {
+  list-style: none;
+  padding: 0;
+}
+
+.weight-entry {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Blood Preasure Record */
+.reading-section {
+  margin-bottom: 20px;
+}
+
+.reading-section h3 {
+  color: #333;
+  margin-top: 25px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-label {
+  margin-top: 15px;
+}
+
+input[type="time"],
+input[type="number"],
+input[type="float"] {
+  width: 97%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.readings-list {
+  list-style: none;
+  padding: 0;
+}
+
+.reading-entry {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.bp_ex {
+  margin-top: 10px;
+  width: 97%;
+  max-width: 97%;
+  border: #bebebe 1px solid;
+  border-radius: 20px;
+}
+
+/* Behavior Record */
+.question-container {
+  margin-bottom: 5%;
+  padding: 20px 0 20px 20px;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.question-text {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.answer-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer-label {
+  display: flex;
+  margin-right: 20%;
+  align-items: center;
+}
+
+.answer-label input[type="radio"] {
+  display: none;
+}
+
+.record-container .custom-radio {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #a8c0ff;
+  border-radius: 50%;
+  margin-right: 8px;
+  position: relative;
+}
+
+.record-container .custom-radio::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #a8c0ff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.answer-label input[type="radio"]:checked+.custom-radio::after {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* First Record */
+.unit {
+  margin-left: 1%;
+}
+
+/* Submission */
+.submission-message {
+  text-align: center;
+  padding: 10px 0px 5px 0px;
+  margin-top: 20px;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.success-message {
+  margin: 10px;
+}
+
+.submission-data {
+  padding-left: 5%;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  margin-bottom: 20px;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.submission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlighted {
+  color: #839ad3;
+  font-weight: bold;
+}
+
+.separator {
+  margin-right: 10px;
+}

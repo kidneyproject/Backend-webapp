@@ -1,0 +1,183 @@
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.auth-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+  max-width: 1200px;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.form-section {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+select.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.unit {
+  margin-left: 5px;
+}
+
+.input-with-unit {
+  display: flex;
+  align-items: center;
+}
+
+.input-with-unit input[type="number"] {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.input-with-unit .unit::after {
+  content: attr(data-unit);
+  position: absolute;
+  right: 10px;
+  color: #888;
+}
+
+.invalid-feedback {
+  color: red;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #839ad3;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #7085b9;
+}
+
+.btn-secondary {
+  background-color: #e2e2e2;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #c4c4c4;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+input.form-control.error {
+  border: 1px solid red;
+}
+
+select.form-control.error {
+  border: 1px solid red;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container .toggle-password {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.toggle-password img {
+  width: 20px;
+  height: auto;
+}
+
+.toggle-password.visible {
+  opacity: 1;
+}
+
+
+label.check-container {
+  width: 90%;
+  font-weight: lighter;
+  display: block;
+  text-align: left;
+  position: relative;
+  padding-left: 0px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.check-container input {
+  margin-right: 10px;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+}
+
+p.submission_message {
+  border: 0.25em solid currentColor;
+  width: 30rem;
+  height: 5rem;
+  padding-top: 10%;
+  font-size: larger;
+  text-align: center;
+  border-radius: 30px;
+}
+
+div.submission {
+  justify-content: space-between;
+}

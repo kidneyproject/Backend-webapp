@@ -1,0 +1,35 @@
+/* Dashboard.css - Apply styles for the patient dashboard */
+
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h2 {
+  font-size: 24px;
+}
+
+.dashboard-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dashboard-insight {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-insight h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Add more styles for other insights and sections */

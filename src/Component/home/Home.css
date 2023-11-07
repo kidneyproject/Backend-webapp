@@ -1,0 +1,68 @@
+.home-container {
+  background-color: #f0f0f0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+div.App {
+  margin-top: 2rem;
+}
+
+.history {
+  padding: 5px 20px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 2.5rem;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.page-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.page-content {
+  text-align: center;
+}
+
+.welcome-message {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.Welcome {
+  height: 50%;
+  width: 50%;
+}
+
+/* Page Footer Styles */
+.page-footer {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  /* Gray text color */
+  padding-top: 20px;
+}
+
+.record-section {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 0 0 20px 0;
+  padding: 10px 10px 20px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.record-section h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}

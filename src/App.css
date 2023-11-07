@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  font-family: 'Prompt', serif;
+}
+
+/* Style the content container */
+.content-container {
+  height: calc(100% - 60px); /* Adjust the value to match the height of your navbar */
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  margin-top: 20px;
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  /* Apply sticky positioning */
+  position: sticky;
+  bottom: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 600px;
+  margin: 5% auto;
+}
+
+form {
+  margin-bottom: 1%;
+}
+
+.form-label {
+  text-align: left;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+}
+
+.btn:active {
+  background-color: #0062cc;
+}
+
+.label-fixed-width {
+  width: 100px;
+  display: inline-block;
+}
+.input-fixed-width {
+  width: 200px;
+  display: inline-block;
+}
+
+.App-navigation {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.App-content {
+  padding: 20px;
+}
+
+.App-footer {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+}
+
+.dashboard {
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.dashboard-header {
+  margin-bottom: 20px;
+}
+
+.dashboard-section {
+  margin-bottom: 40px;
+}
+
+.dashboard-insight,
+.dashboard-table,
+.dashboard-export {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+}
